@@ -6,6 +6,7 @@ package com.oop.Extends;
 public class Student extends Person {
     //ctrl+ H
 
+
     private String name = "JavaChildren";
 
     public void test(String name) {
@@ -15,6 +16,7 @@ public class Student extends Person {
         
         super.add(name);
     }
+
 }
 
 

@@ -1,7 +1,7 @@
 package com.oop.Extends;
 
 
-// 在Java中，所有的类都默认直接或者间接继承 Object
+// 在Java中，所有的类都默认直接或者间接继承 Object  ctrl + H
 public class Person {
     //继成
     /*

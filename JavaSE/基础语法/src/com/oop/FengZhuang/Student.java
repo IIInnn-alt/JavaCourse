@@ -3,7 +3,7 @@ package com.oop.FengZhuang;
 public class Student {
     //private  私有
 
-    // 属性私有
+    // 属性私有 在 ApplicationStudent 类中，实例一个对象，是打印不出私有的属性的
     private String name;
     private int id;
     private char sex; //性别
