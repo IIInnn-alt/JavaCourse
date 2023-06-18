@@ -4,6 +4,7 @@ public class Demo02 {
     //代码块
 
     { //赋初始值
+        // 对象一创建就会执行
         System.out.println("匿名代码块");
     }
 

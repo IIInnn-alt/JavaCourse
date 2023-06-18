@@ -1,14 +1,26 @@
 package com.oop.againLoad;
 
 public class Children extends Parent {
-//    public void test() {
-//        System.out.println("Children");
-//    }
+    // public static void test() {
+    //     System.out.println("Children");
+    // }
 
-    @Override   //重写方法
-    public void test() {
+    // public void test1() {
+    //     System.out.println("Children");
+    // }
+
+
+    //alt + Insert 重写方法 @
+    @Override //注解有功能的注释
+    // 重写 修饰符是 public
+    public void test1() {
+        // super.test1();
         System.out.println("Children");
     }
+
+    // public void test2() {
+    //     System.out.println("test2.Children");
+    // }
 }
 
 

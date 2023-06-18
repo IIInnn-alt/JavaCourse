@@ -15,12 +15,20 @@ public class Student {
     // 构造器 初始化实例
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
+
+    // public String getName() {
+    //     return this.name;
+    // }
+    //
+    // public void setName(String name) {
+    //     this.name = name;
+    // }
 
     public int getId() {
         return id;

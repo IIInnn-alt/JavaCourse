@@ -4,6 +4,8 @@ package com.oop.Aabstract;
 public abstract class Demo01 {
 
     // abstract抽象方法    只有方法名字，没有方法的实现
+    public static String name = "小";
+
     public abstract void add();
 
     public Demo01() {

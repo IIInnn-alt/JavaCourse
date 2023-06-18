@@ -7,11 +7,9 @@ public interface userService {
         接口
 
     *   普通类：只有具体实现
-    *   抽象类：具体实现和规范（抽象方法）都有!
+    *   抽象类：具体实现 和 规范（抽象方法）都有!
     *   接口:只有规范！自己无法写方法~，专业的约束！   约束和实现分离:面向接口编程
-    * */
-
-    // 接口里中所有的定义的方法 其实都是抽象的 public abstract
+    * */;
 
     public abstract void add();
     void del();
@@ -20,4 +18,5 @@ public interface userService {
 
 
 }
+
 
