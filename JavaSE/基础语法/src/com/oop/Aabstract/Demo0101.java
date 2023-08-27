@@ -11,6 +11,7 @@ public class Demo0101 extends Demo01 {
 
     public static void main(String[] args) {
         Demo0101 demo0101 = new Demo0101();
+        demo0101.add();
     }
 
 }

@@ -14,5 +14,6 @@ public class AppMainPerson {
         //同级类
         A a = new A();
         a.say();
+        System.out.println(String.valueOf(1) instanceof String);
     }
 }

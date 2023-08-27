@@ -6,6 +6,11 @@ package com.oop.Jiekou;
 //  可以继承（implements）多个接口
 public class userServiceImpl implements userService, timeAction {
     @Override
+    public void time() {
+
+    }
+
+    @Override
     public void add() {
 
     }
@@ -22,11 +27,6 @@ public class userServiceImpl implements userService, timeAction {
 
     @Override
     public void query() {
-
-    }
-
-    @Override
-    public void time() {
 
     }
 }

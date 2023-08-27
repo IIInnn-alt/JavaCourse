@@ -27,9 +27,12 @@ public class Dmoe03 {
         *   >>  /2  右移
         *
         *  2 * 2*2*2
+        *  3* 2*2*2
+        *
         * */
-        System.out.println(2<<3);
-
+        System.out.println(3<<3); //向左移3位 3* 2*2*2
+        System.out.println(5<<5); //向左移5位 5* 2*2*2*2*2
+        System.out.println(64>>3);//向右移3位 64 / 2/2/2
 
     }
 }
